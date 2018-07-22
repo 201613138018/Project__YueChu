@@ -20,15 +20,15 @@
         <activity android:name=".IndexActivity" />
         <activity android:name=".Page_Index.ItemView_Activity" />
         <activity android:name=".Page_Index.ItemDescriptionActivity" />
-        <activity android:name=".login.LoginActivity" >
+        <activity android:name=".login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".register.RegisterActivity" />
-        <activity android:name=".page_yuechu.startActivity">
-        </activity>
+        <activity android:name=".page_yuechu.startActivity"></activity>
         <activity android:name=".page_yuechu.ycActivity" />
         <activity android:name=".page_yuechu.phbActivity" />
         <activity android:name=".page_yuechu.xsActivity" />
@@ -42,10 +42,11 @@
         <activity android:name=".page_yuechu.xs3Activity" />
         <activity android:name=".page_my.UnregisterActivity" />
         <activity android:name=".page_my.PersonalActivity" />
-        <activity android:name=".page_my.MenuActivity" >
-        </activity>
+        <activity android:name=".page_my.MenuActivity"></activity>
         <activity android:name=".page_my.InsertMenuActivity" />
         <activity android:name=".page_my.DisplayActivity" />
-        <activity android:name=".page_search.SearchActivity"></activity>
+        <activity android:name=".page_search.SearchActivity" />
+        <activity android:name=".page_my.CareActivity"></activity>
     </application>
+
 </manifest>
