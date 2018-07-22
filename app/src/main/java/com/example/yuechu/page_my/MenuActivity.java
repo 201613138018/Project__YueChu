@@ -73,7 +73,7 @@ public class MenuActivity extends Activity {
                 Bundle bundle = data.getExtras();
                 Menu = (Menu) bundle.getSerializable("Menu");
 
-                Material menu1 = new Material(Menu.getSteppic_list().get(0), Menu.getSteppic_list().get(0));
+                Material menu1 = new Material(Menu.getStep_list().get(0), Menu.getSteppic_list().get(0));
                 menu.add(menu1);
                 MenuAdapter menuAdapter = new MenuAdapter(MenuActivity.this, R.layout.menuitem, menu);
                 ListView menulistView = (ListView) findViewById(R.id.Menulistview);
