@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -79,5 +81,14 @@ public class DisplayActivity extends Activity {
         taste_t.setText(other_str.get(2));
         TextView difficulty_t=(TextView)findViewById(R.id.difficulty_t);
         difficulty_t.setText(other_str.get(3));
+
+        ImageButton returnbtn=(ImageButton)findViewById(R.id.returnbtn);
+        returnbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
     }
 }

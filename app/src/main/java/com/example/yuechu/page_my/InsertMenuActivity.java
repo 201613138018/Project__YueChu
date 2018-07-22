@@ -90,7 +90,6 @@ public class InsertMenuActivity extends Activity {
                     case R.id.menu_end:Publish();break;
                     case R.id.imageButton:finish();break;
                     case R.id.Chengpintu:ChoicePic();break;
-                    //                    case R.id.draft_btn:JumpToDisplay();break;
                     case R.id.stepimage:ChoicePic();break;
                 }
             }
@@ -104,7 +103,6 @@ public class InsertMenuActivity extends Activity {
         end.setOnClickListener(AddFoodlistener);
         returnbtn.setOnClickListener(AddFoodlistener);
         chengpin.setOnClickListener(AddFoodlistener);
-        //        Draft_btn.setOnClickListener(AddFoodlistener);
         StepImage.setOnClickListener(AddFoodlistener);
     }
 
